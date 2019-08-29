@@ -1,0 +1,259 @@
+!SESSION 2019-08-17 23:42:30.270 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\Amit\Desktop\java project\OnlineMedicalStore -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-17 23:43:13.858
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-08-17 23:43:22.323
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-17 23:43:22.323
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76ebd595,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4560eb15,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-17 23:43:55.115
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Amit'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:49:41.323
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:49:41.326
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2b12f782[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=1001)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:49:41.388
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:49:42.085
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:13.972
+!MESSAGE Boot LS startup time from start to initialized: 32379ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:14.166
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pnUhhrRwisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:14.167
+!MESSAGE subscribing to classpath changes: sts4.classpath.pnUhhrRw isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:14.184
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:14.188
+!MESSAGE subsribers = {sts4.classpath.pnUhhrRw=Send Classpath Notifications(851)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:14.189
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:15.171
+!MESSAGE project OnlineMedicalStore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:15.173
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:15.175
+!MESSAGE Preparing classpath changed notification OnlineMedicalStore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:15.176
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pnUhhrRw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:15.179
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:15.196
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:15.201
+!MESSAGE buffering callback sts4.classpath.pnUhhrRw OnlineMedicalStore false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:15.202
+!MESSAGE executing callback sts4.classpath.pnUhhrRw 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:50:15.273
+!MESSAGE executing callback sts4.classpath.pnUhhrRw SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-08-17 23:50:22.451
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:52:43.075
+!MESSAGE Preparing classpath changed notification OnlineMedicalStore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:52:43.076
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:52:43.077
+!MESSAGE buffering callback sts4.classpath.pnUhhrRw OnlineMedicalStore true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:52:43.078
+!MESSAGE executing callback sts4.classpath.pnUhhrRw 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:52:43.328
+!MESSAGE executing callback sts4.classpath.pnUhhrRw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:52:43.542
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pnUhhrRw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:52:43.644
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pnUhhrRw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:52:43.645
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:52:43.645
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pnUhhrRw => OK
+
+!ENTRY org.eclipse.jpt.common.ui 4 0 2019-08-17 23:53:06.413
+!MESSAGE Unexpected parent: P/OnlineMedicalStore
+!STACK 0
+java.lang.IllegalArgumentException: Unexpected parent: P/OnlineMedicalStore
+	at org.eclipse.jpt.common.ui.internal.jface.ItemTreeStateProviderManager.getChildren(ItemTreeStateProviderManager.java:79)
+	at org.eclipse.jpt.common.ui.internal.navigator.NavigatorContentProvider.getChildren(NavigatorContentProvider.java:109)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:125)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.306
+!MESSAGE Boot LS startup time from start to initialized: 21890ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.641
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kcaiUclsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.645
+!MESSAGE subscribing to classpath changes: sts4.classpath.kcaiUcls isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.648
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.651
+!MESSAGE subsribers = {sts4.classpath.kcaiUcls=Send Classpath Notifications(1068)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.652
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.eclipse.ui 4 0 2019-08-17 23:53:31.660
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.springframework.tooling.ls.eclipse.commons.ProjectSorter$1.run(ProjectSorter.java:39)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.663
+!MESSAGE project OnlineMedicalStore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.666
+!MESSAGE Preparing classpath changed notification OnlineMedicalStore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.669
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.671
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.673
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kcaiUcls => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.691
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.714
+!MESSAGE buffering callback sts4.classpath.kcaiUcls OnlineMedicalStore false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.720
+!MESSAGE executing callback sts4.classpath.kcaiUcls 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-17 23:53:31.865
+!MESSAGE executing callback sts4.classpath.kcaiUcls SUCCESS [done]
+
+!ENTRY org.eclipse.egit.core 4 0 2019-08-17 23:57:25.875
+!MESSAGE An exception occurred during push on URI https://github.com/iamitgupta/Online-Medical-Store: https://github.com/iamitgupta/Online-Medical-Store: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/iamitgupta/Online-Medical-Store: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:624)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:466)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1367)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection time out: github.com
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:235)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:539)
+	... 7 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-08-17 23:57:25.886
+!MESSAGE Can't connect to any repository: https://github.com/iamitgupta/Online-Medical-Store (https://github.com/iamitgupta/Online-Medical-Store: cannot open git-receive-pack)
